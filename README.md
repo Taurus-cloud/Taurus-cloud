@@ -1,79 +1,79 @@
-# Hi, I'm Xindong Ren 👋
+# 你好，我是任鑫东 👋
 
-**Algorithm Engineer | Operations Research · Metaheuristics · AI Agent**
+**算法工程师 | 运筹优化 · 智能优化 · AI Agent**
 
-M.S. candidate in Industrial Engineering and Management at Nanjing University of Aeronautics and Astronautics (NUAA).
+南京航空航天大学工业工程与管理硕士在读。我关注如何把真实业务中的规则、约束与目标转化为可验证的优化模型、搜索算法、实验与工程实现。
 
-I design algorithms for industrial decision problems: turning operational rules into optimization models, search procedures, experiments, and reproducible software. My current work spans combinatorial optimization, black-box optimization, scheduling and routing, resource allocation, and agentic workflow automation.
+当前工作覆盖组合优化、黑盒优化、调度与路径规划、资源分配，以及 Agent 工作流自动化。
 
-## Research & Engineering Interests
+## 研究与工程方向
 
-- Operations Research & Combinatorial Optimization
-- Mixed Integer Programming & Column Generation
-- Black-box & Multi-objective Optimization
-- Metaheuristics: ALNS, Genetic Algorithm, Greedy Search, Simulated Annealing
-- Scheduling, Conflict Resolution & Path Planning
-- LLM Agents, Multi-Agent Systems & Tool Calling
+- 运筹优化与组合优化
+- 混合整数规划与列生成
+- 黑盒优化与多目标优化
+- 智能优化：ALNS、遗传算法、贪婪搜索、模拟退火
+- 调度、冲突消解与路径规划
+- LLM Agent、多 Agent 协同与工具调用
 
-## Current Focus
+## 当前关注
 
-- Building optimization pipelines for scheduling, routing, and constrained resource allocation.
-- Studying feedback-driven search strategies for multi-stage black-box optimization.
-- Designing reliable agent workflows with validation, tool execution, and structured analysis.
+- 面向调度、路径与受约束资源分配的优化算法流程。
+- 面向多阶段黑盒优化的反馈驱动搜索与回溯机制。
+- 具备配置校验、工具执行和结构化分析能力的可靠 Agent 工作流。
 
-## Experience Highlights
+## 经历摘要
 
-### Huawei HiSilicon | AI Algorithm Engineer Intern
+### 华为海思 | AI 算法工程师实习生
 
 `2026.06 – 2026.08`
 
-- Improved a staged black-box optimization workflow with feedback-driven backtracking to mitigate local optima.
-- Extended an optimization pipeline for multi-condition parameter fitting.
-- Built a LangGraph-based multi-agent workflow for configuration validation, tool orchestration, and result analysis.
+- 通过反馈驱动回溯改进分阶段黑盒优化流程，以缓解局部最优问题。
+- 将优化流程扩展至多条件参数拟合场景。
+- 基于 LangGraph 构建配置校验、工具编排与结果分析协同的多 Agent 工作流。
 
-### CXMT | Algorithm Engineer Intern
+### 长鑫存储 | 算法工程师实习生
 
 `2025.09 – 2026.01`
 
-- Developed a hybrid Greedy + Genetic Algorithm for industrial redundancy allocation.
-- Formulated a constrained resource-allocation problem as a Mixed Integer Programming model and implemented a two-stage allocation workflow.
+- 针对工业冗余分配问题，开发贪婪算法与遗传算法结合的混合优化方法。
+- 将受约束资源分配问题建模为混合整数规划，并实现两阶段自动分配流程。
 
-The items above describe experience at a high level. They do not publish employer code, datasets, configurations, interfaces, or benchmarks.
+以上仅为脱敏后的经历摘要，不包含公司代码、数据、配置、接口或内部评测结果。
 
-## Featured Projects
+## 重点项目
 
-### Multi-AGV Scheduling & Conflict-Free Routing
+### 多 AGV 协同调度与无冲突路径规划
 
-Joint task scheduling and conflict-free routing for multi-AGV systems.
+面向多 AGV 系统的联合任务调度与无冲突路径规划。
 
-**Methods:** MIP · ALNS · Reservation Chains · Feedback-Driven Local Improvement
+**方法：** MIP · ALNS · 预约链 · 反馈驱动局部改进
 
-The current research repository is private while its data and demonstration assets are reviewed for a public-safe release.
+该研究仓库目前为私有状态，正在进行数据与演示资产的公开安全审查。
 
-### [CVRPSPD Column Generation Solver](https://github.com/Taurus-cloud/CVRPSPD_CG)
+### [CVRPSPD 列生成求解器](https://github.com/Taurus-cloud/CVRPSPD_CG)
 
-Vehicle Routing with Simultaneous Pickup and Delivery, implemented with a restricted master problem, pricing subproblem, and labeling-based route search.
+同时取送货车辆路径问题的列生成实现，包含受限主问题、定价子问题与基于标号的路径搜索。
 
-**Methods:** Column Generation · Gurobi · Labeling · Dominance Rules
+**方法：** 列生成 · Gurobi · Labeling · 支配规则
 
-### [TSP Solver Benchmark](https://github.com/Taurus-cloud/TSP_SA_Gurobi)
+### [TSP 求解器对比](https://github.com/Taurus-cloud/TSP_SA_Gurobi)
 
-A compact comparison of MTZ-based exact formulations in Gurobi/SCIP and simulated annealing with swap-based neighborhoods.
+基于 Gurobi / SCIP 的 MTZ 精确模型与模拟退火交换邻域的紧凑对比实现。
 
-**Methods:** MIP · Gurobi · SCIP · Simulated Annealing
+**方法：** MIP · Gurobi · SCIP · 模拟退火
 
-## Tech Stack
+## 技术栈
 
-| Area | Tools and methods |
+| 方向 | 工具与方法 |
 | --- | --- |
-| Optimization | Gurobi · CPLEX · SCIP · Mixed Integer Programming · Column Generation |
-| Metaheuristics | ALNS · Genetic Algorithm · Greedy Search · Simulated Annealing |
-| AI / Agent | LangGraph · Multi-Agent Systems · Tool Calling · Structured Output |
-| Programming | Python · C++ · SQL |
-| Engineering | Linux · Git |
+| 优化建模 | Gurobi · CPLEX · SCIP · 混合整数规划 · 列生成 |
+| 智能优化 | ALNS · 遗传算法 · 贪婪搜索 · 模拟退火 |
+| AI / Agent | LangGraph · 多 Agent 系统 · 工具调用 · 结构化输出 |
+| 编程 | Python · C++ · SQL |
+| 工程 | Linux · Git |
 
-## Contact
+## 联系方式
 
-- Email: xindong_ren@nuaa.edu.cn
-- GitHub: [Taurus-cloud](https://github.com/Taurus-cloud)
-- Location: Nanjing, China
+- 邮箱：xindong_ren@nuaa.edu.cn
+- GitHub：[Taurus-cloud](https://github.com/Taurus-cloud)
+- 地址：中国南京
