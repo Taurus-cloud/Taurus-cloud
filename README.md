@@ -1,77 +1,79 @@
-# 👋 你好！我是任鑫东
+# Hi, I'm Xindong Ren 👋
 
-南京航空航天大学 **工业工程与管理** 硕士在读，专注于 **运筹优化与智能调度算法** 的研究与开发。  
-具备扎实的组合优化建模能力与算法工程实践经验，致力于在 **自动化港口、仓储物流、半导体测试** 等领域提供高效、可落地的优化算法。
+**Algorithm Engineer | Operations Research · Metaheuristics · AI Agent**
 
----
+M.S. candidate in Industrial Engineering and Management at Nanjing University of Aeronautics and Astronautics (NUAA).
 
-## 🎓 教育背景
+I design algorithms for industrial decision problems: turning operational rules into optimization models, search procedures, experiments, and reproducible software. My current work spans combinatorial optimization, black-box optimization, scheduling and routing, resource allocation, and agentic workflow automation.
 
-**南京航空航天大学 · 工业工程与管理 · 硕士**  
-*2024.09 – 至今*  
-研究方向：自动化港口堆场的AGV调度与路径规划  
-主修课程：最优化理论与算法、高级运筹学、机器学习与数据分析、物流与供应链管理
+## Research & Engineering Interests
 
-**南京航空航天大学 · 工商管理 · 本科**  
-*2020.09 – 2024.06*  
-荣誉：一等学业奖学金、优秀生奖学金、商务谈判大赛全国一等奖、校级年度特别嘉奖
+- Operations Research & Combinatorial Optimization
+- Mixed Integer Programming & Column Generation
+- Black-box & Multi-objective Optimization
+- Metaheuristics: ALNS, Genetic Algorithm, Greedy Search, Simulated Annealing
+- Scheduling, Conflict Resolution & Path Planning
+- LLM Agents, Multi-Agent Systems & Tool Calling
 
----
+## Current Focus
 
-## 💻 专业技能
+- Building optimization pipelines for scheduling, routing, and constrained resource allocation.
+- Studying feedback-driven search strategies for multi-stage black-box optimization.
+- Designing reliable agent workflows with validation, tool execution, and structured analysis.
 
-| 类别 | 技能描述 |
-|------|----------|
-| **优化建模与求解** | 熟悉混合整数规划建模，掌握列生成、分支定界等精确算法，熟练使用 Gurobi、Cplex、SCIP 等求解器 |
-| **启发式算法** | 熟悉 ALNS、遗传算法、贪婪算法等，具备问题适配与算法调优能力 |
-| **编程语言** | Python（主力）、C++、SQL |
-| **开发工具** | PyTorch、Pandas、Git、Linux、MySQL |
-| **其他能力** | CET-6、初级会计证、数据结构、机器学习基础 |
+## Experience Highlights
 
----
+### Huawei HiSilicon | AI Algorithm Engineer Intern
 
-## 🚀 项目经历
+`2026.06 – 2026.08`
 
-### 🔹 港口堆场AGV协同调度与无冲突路径规划  
-*2025.06 – 至今*  
-- 针对港口无人集卡多车并行作业冲突问题，研究任务调度与路径规划的协同决策机制  
-- 构建基于 **Alternative Graph** 与 **Disjunctive Graph** 的时空冲突图模型，建立混合整数规划模型  
-- 融合 **ALNS** 算法优化任务分配，结合 **列生成算法** 求解大规模多车路径规划问题  
-- 基于实际港口数据进行仿真验证，使用 Python 实现可视化展示与效果评估  
+- Improved a staged black-box optimization workflow with feedback-driven backtracking to mitigate local optima.
+- Extended an optimization pipeline for multi-condition parameter fitting.
+- Built a LangGraph-based multi-agent workflow for configuration validation, tool orchestration, and result analysis.
 
-### 🔹 半导体测试机台Probecard资源智能分配系统  
-*2025.09 – 2026.01 · 长鑫存储实习项目*  
-- 针对CP测试阶段机台资源分配依赖人工、效率低的问题，设计基于混合整数规划的自动化分配系统  
-- 建立四类资源（IO/DR/HC/PPS）的优化模型，整合业务约束与共享规则，调用 PuLP 求解  
-- 实现两阶段分配机制：全局优化 + 细粒度通道分配，自动输出Excel格式分配方案  
-- 系统可大幅提升设计效率与准确性，支持多产品线自适应适配  
+### CXMT | Algorithm Engineer Intern
 
-### 🔹 内存芯片RA冗余修复算法  
-*2025.09 – 2026.01 · 长鑫存储实习项目*  
-- 针对DRAM芯片坏点导致的良率问题，开发基于冗余资源的自动化修复算法  
-- 解析芯片物理布局与业务映射规则，设计坏点分类与修复策略  
-- 采用 **贪婪算法 + 遗传算法** 混合策略，优先修复高密度坏点区域，提升修复率  
-- 输出结构化修复报告，支持修复状态统计与地址计算（十六进制转换）
+`2025.09 – 2026.01`
 
-### 🔹 列生成 + 标签算法求解VRPSPD问题  
-*2024.10 – 2025.04*  
-- 构建带载货量与服务时间约束的车辆路径问题模型  
-- 采用列生成框架，子问题使用标签算法动态更新状态  
-- 与 Gurobi 求解结果对比验证，误差 < 1%，并实现迭代过程可视化看板
+- Developed a hybrid Greedy + Genetic Algorithm for industrial redundancy allocation.
+- Formulated a constrained resource-allocation problem as a Mixed Integer Programming model and implemented a two-stage allocation workflow.
 
-### 🔹 多AGV无冲突路径规划（含订单分配）  
-*2024.06 – 2024.09*  
-- 优化经典 CBS 算法，引入预计算、剪枝、最小冲突启发等加速算子  
-- 设计单阶段 ALNS 算法，将冲突消解嵌入破坏/修复算子  
-- 在随机算例中表现优于传统混合算法，支持动态任务调度
+The items above describe experience at a high level. They do not publish employer code, datasets, configurations, interfaces, or benchmarks.
 
+## Featured Projects
 
----
+### Multi-AGV Scheduling & Conflict-Free Routing
 
-## 📬 联系我
+Joint task scheduling and conflict-free routing for multi-AGV systems.
 
-- 📧 邮箱：xindong_ren@nuaa.edu.cn  
-- 🔗 GitHub：[Taurus-cloud](https://github.com/Taurus-cloud)  
-- 📍 地址：江苏南京  
+**Methods:** MIP · ALNS · Reservation Chains · Feedback-Driven Local Improvement
 
-欢迎交流优化算法、智能调度与工业工程相关话题，也欢迎 Star 与 Fork 我的开源项目！
+The current research repository is private while its data and demonstration assets are reviewed for a public-safe release.
+
+### [CVRPSPD Column Generation Solver](https://github.com/Taurus-cloud/CVRPSPD_CG)
+
+Vehicle Routing with Simultaneous Pickup and Delivery, implemented with a restricted master problem, pricing subproblem, and labeling-based route search.
+
+**Methods:** Column Generation · Gurobi · Labeling · Dominance Rules
+
+### [TSP Solver Benchmark](https://github.com/Taurus-cloud/TSP_SA_Gurobi)
+
+A compact comparison of MTZ-based exact formulations in Gurobi/SCIP and simulated annealing with swap-based neighborhoods.
+
+**Methods:** MIP · Gurobi · SCIP · Simulated Annealing
+
+## Tech Stack
+
+| Area | Tools and methods |
+| --- | --- |
+| Optimization | Gurobi · CPLEX · SCIP · Mixed Integer Programming · Column Generation |
+| Metaheuristics | ALNS · Genetic Algorithm · Greedy Search · Simulated Annealing |
+| AI / Agent | LangGraph · Multi-Agent Systems · Tool Calling · Structured Output |
+| Programming | Python · C++ · SQL |
+| Engineering | Linux · Git |
+
+## Contact
+
+- Email: xindong_ren@nuaa.edu.cn
+- GitHub: [Taurus-cloud](https://github.com/Taurus-cloud)
+- Location: Nanjing, China
